@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Form Sign in</title>
+</head>
+<body>
+  <a href="home" class="logo">
+    <span class="logo__text">Easy</span>Baker
+  </a>
+    <header class="header">
+        <div class="container header__inner">
+          <a href="index.html" class="logo">
+            <span class="logo__text">Easy</span>Baker
+          </a>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
+                  Create
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">
+                  Blog
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a href="about.html" class="header__menu-link">
+                  About
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a
+                  href="login.html"
+                  class="header__menu-link btn "
+                >
+                  Login
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <div class="auth-form">
+        <div class="auth-form__container" id="error">
+            <form action="" id="form">
+                <div class="auth-form-header">
+                    <h3 class="heading">Login</h3>
+                </div>
+                <div class="auth-form__form">
+                     
+                      <div class="form-control">
+                          <input id="name" name="name" type="text" required >
+                          <label for="name">User Name</label>
+                      </div>
+                      <div class="form-control">
+                          <input type="password" id="password" name="password" required>
+                          <label for="password">Password</label>
+                      </div>
+                      <button class="btn-login" type="submit">Login</button>
+                      <p class="text">Don't have account?<a href="register.html" 
+                        style="color: red; text-decoration: none;">Register</a></p>
+                  </div>
+              </form>
+        </div>
+      </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
